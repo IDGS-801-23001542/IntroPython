@@ -22,7 +22,7 @@ def division():
         print("Resultado:", a / b)
 
 def menu():
-    print("\n--- MENÚ ---")
+    print("--- MENÚ ---")
     print("1. Suma")
     print("2. Resta")
     print("3. Multiplicación")

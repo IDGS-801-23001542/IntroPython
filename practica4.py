@@ -13,16 +13,16 @@ for i in range(20):
     numeros.append(num)
 
 
-print("\nLista original:")
+print("Lista original:")
 print(numeros)
 
 
 numeros_ordenados = sorted(numeros)
-print("\nLista ordenada de menor a mayor:")
+print("Lista ordenada de menor a mayor:")
 print(numeros_ordenados)
 
 
-print("\nNúmeros repetidos y cuántas veces aparecen:")
+print("Números repetidos y cuántas veces aparecen:")
 repetidos = False
 for num in set(numeros):
     cantidad = numeros.count(num)
@@ -42,8 +42,8 @@ for num in numeros:
     else:
         impares.append(num)
 
-print("\nNúmeros pares:")
+print("Números pares:")
 print(pares)
 
-print("\nNúmeros impares:")
+print("Números impares:")
 print(impares)

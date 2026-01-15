@@ -10,6 +10,7 @@ dame =x
 7 x 10 = 70 
 fin
 '''
+
 x = int(input("Dame un numero: "))
 for i in range(1, 11):
         print(f"{x} x {i} = {x * i}")
