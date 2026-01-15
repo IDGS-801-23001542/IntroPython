@@ -25,6 +25,12 @@ or   o
 not  no
 """
 
+'''
+La estructura if-else se utiliza para tomar decisiones dentro del programa.
+Evalúa una condición y ejecuta un bloque de código si la condición es verdadera,
+y otro bloque diferente si la condición es falsa.
+'''
+
 
 num1=2
 num2=3

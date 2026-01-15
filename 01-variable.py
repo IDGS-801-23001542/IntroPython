@@ -1,3 +1,9 @@
+'''
+Docstring for 01-variable
+Una variable es un espacio en memoria que se utiliza para almacenar datos.
+En Python no es necesario especificar el tipo de dato, ya que se asigna automáticamente.
+Ejemplos de datos que se pueden guardar en variables: números, texto y valores lógicos.
+'''
 
 print("Hello, World!")
 
