@@ -7,21 +7,21 @@ separalos entre pareales e impares
 '''
 numeros = []
 
-# Pedir 20 números al usuario
+
 for i in range(20):
     num = int(input(f"Ingrese el número {i + 1}: "))
     numeros.append(num)
 
-# Mostrar lista original
+
 print("\nLista original:")
 print(numeros)
 
-# Ordenar la lista
+
 numeros_ordenados = sorted(numeros)
 print("\nLista ordenada de menor a mayor:")
 print(numeros_ordenados)
 
-# Contar números repetidos
+
 print("\nNúmeros repetidos y cuántas veces aparecen:")
 repetidos = False
 for num in set(numeros):
@@ -33,7 +33,6 @@ for num in set(numeros):
 if not repetidos:
     print("No hay números repetidos")
 
-# Separar pares e impares
 pares = []
 impares = []
 
